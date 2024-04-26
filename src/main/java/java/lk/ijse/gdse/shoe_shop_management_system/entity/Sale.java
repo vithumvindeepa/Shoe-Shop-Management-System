@@ -14,10 +14,8 @@ import lombok.ToString;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "employee")
+@Table(name = "sale")
 public class Sale {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "FIRSTNAME")
-    private String firstName;
+
+
 }
