@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.util.Date;
+import java.util.UUID;
 
 /**
  * @author Vithum vindeepa
@@ -16,7 +17,7 @@ import java.util.Date;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "employee")
+@Table(name = "EMPLOYEE_TABLE")
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -54,4 +55,6 @@ public class Employee {
     private String informInCaseIfEmergency;
     @Column(name = "EMERGENCY_CONTACT")
     private String emergencyContact;
+
+
 }

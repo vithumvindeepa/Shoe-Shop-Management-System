@@ -9,8 +9,9 @@ import java.util.Optional;
  * @author Vithum vindeepa
  */
 public interface EmployeeService {
+//    Employee saveEmployee(Employee employee);
     Employee saveEmployee(Employee employee);
     List<Employee> getAllEmployee();
-    Optional<Employee> findById(String employeeId);
+    Optional<Employee> findByEmployeeId(String employeeId);
     boolean deleteEmployee(String employeeId);
 }

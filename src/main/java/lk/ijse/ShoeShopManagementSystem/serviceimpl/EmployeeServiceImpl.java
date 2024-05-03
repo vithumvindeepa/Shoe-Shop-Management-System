@@ -21,6 +21,11 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     private final EmployeeRepository repository;
 
+//    @Override
+//    public Employee saveEmployee(Employee employee) {
+//        return repository.save(employee);
+//    }
+
     @Override
     public Employee saveEmployee(Employee employee) {
         return repository.save(employee);
@@ -32,7 +37,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public Optional<Employee> findById(String employeeId) {
+    public Optional<Employee> findByEmployeeId(String employeeId) {
         return repository.findById(employeeId);
     }
 
