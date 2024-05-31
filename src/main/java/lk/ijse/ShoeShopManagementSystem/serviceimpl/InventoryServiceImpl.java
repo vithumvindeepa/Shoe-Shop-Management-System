@@ -1,8 +1,8 @@
 package lk.ijse.ShoeShopManagementSystem.serviceimpl;
 
-import lk.ijse.helloshoeshopmanagement.entity.Inventory;
-import lk.ijse.helloshoeshopmanagement.repository.InventoryRepository;
-import lk.ijse.helloshoeshopmanagement.service.InventoryService;
+import lk.ijse.ShoeShopManagementSystem.entity.Inventory;
+import lk.ijse.ShoeShopManagementSystem.reposirory.InventoryRepository;
+import lk.ijse.ShoeShopManagementSystem.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
