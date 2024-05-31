@@ -53,7 +53,6 @@ public class CustomerController {
             }
             customer.setName(credentials.get("name"));
             customer.setGender(Gender.valueOf(credentials.get("gender")));
-            customer.setContact(credentials.get("contact"));
             customer.setLevel(credentials.get("level"));
             customer.setTotalPoint(credentials.get("totalPoint"));
             customer.setDob(credentials.get("dob"));
