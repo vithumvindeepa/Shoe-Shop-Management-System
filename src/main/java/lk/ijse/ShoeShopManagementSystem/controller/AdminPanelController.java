@@ -1,7 +1,7 @@
 package lk.ijse.ShoeShopManagementSystem.controller;
 
-import lk.ijse.helloshoeshopmanagement.entity.AdminPanel;
-import lk.ijse.helloshoeshopmanagement.service.AdminPanelService;
+import lk.ijse.ShoeShopManagementSystem.entity.AdminPanel;
+import lk.ijse.ShoeShopManagementSystem.service.AdminPanelService;
 import lombok.RequiredArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.springframework.beans.factory.annotation.Autowired;
